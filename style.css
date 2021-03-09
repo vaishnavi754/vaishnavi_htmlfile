@@ -1,6 +1,6 @@
 :root{
     --primary-color:#4037C1;
-    --dark-gray:#CBD5E0;
+    --dark-gray:#A0AEC0;
 }
 
 
@@ -64,4 +64,13 @@ color: white;
 .hero-heading{
     padding:2rem;      
 }
+
+.section{
+    text-align:center;
+}
+
+.ow{
+    background-color:var(--dark-gray);
+}
+
 
