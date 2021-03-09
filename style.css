@@ -73,4 +73,17 @@ color: white;
     background-color:var(--dark-gray);
 }
 
+.footer{
+    background-color:#4037C1;
+    padding:10rem,1rem;
+    text-align:center;
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
+
+}
+
+
 
