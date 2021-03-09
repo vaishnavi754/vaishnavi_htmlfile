@@ -26,6 +26,7 @@ hr{
     box-sizing:border-box;
     text-decoration:none;
     padding: 0.5rem,1rem;
+    
 }
 
 .link-primary{
@@ -36,6 +37,9 @@ hr{
     display:block;
     max-width:140 px;
     margin:1rem,1 rem, 1rem,1rem;
+    display:inline;
+    
+
 
 }
 
@@ -47,6 +51,7 @@ hr{
     display:block;
     max-width:140 px;
     margin:1rem,1 rem, 1rem,1rem;
+    display:inline;
 
     }
 
@@ -59,15 +64,19 @@ hr{
     padding:0rem,20rem;
 }
 
- .navigation{
+ .navigation-container{
     background-color: var(--primary-color);
     color:white
     padding:1rem;
     border-bottom-left-radius:1rem;
-   }
+    color:white;
+ }  
+   
 
  .navigation .nav-brand{
+     background-color:var (--primary-color)
      font-weight:bold;
+     color:white;
  }  
 .nav-brand a{
     text-decoration:none;
@@ -99,7 +108,7 @@ hr{
 }
 
 .hero-heading{
-    text-align:right;
+    text-align:center;
     padding: 1rem;
     color:var(--dark-gray);      
 }
@@ -110,6 +119,7 @@ hr{
 
 .section{
     padding:2rem;
+    text-align:center;
 }
 
 .section h2{
@@ -127,7 +137,7 @@ hr{
     color:white;
 }
 
-.footer link{
+.footer .link{
     color:white;
 
 }
