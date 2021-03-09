@@ -1,5 +1,6 @@
 :root{
-    --primary-color:#E53E3E
+    --primary-color:#4037C1;
+    --dark-gray:#CBD5E0;
 }
 
 
@@ -51,5 +52,16 @@ color: white;
 }
 .link{
     color: white;
- cell padding:20pex;
+ 
 }
+
+.hero-img{
+    max-width:300px;
+    display:block;
+    margin:auto;
+}
+
+.hero-heading{
+    padding:2rem;      
+}
+
